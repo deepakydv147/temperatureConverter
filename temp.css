@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: url("./sean-oulashin-KMn4VEeEPR8-unsplash.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contaner {
+  width: 25%;
+  height: 23rem;
+  background-color: #00000096;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 5px 25px;
+  box-shadow: 10px 10px 10px black;
+}
+.contaner h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 29px;
+  font-weight:500;
+  text-align: center;
+  letter-spacing: 1px;
+  user-select: none;
+  margin-top: 25px;
+  text-shadow: 1px 1px 3px;
+  color:rgb(75, 240, 240);
+
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+.inputs div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+#result,
+#inputvalue {
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 0px 2px 5px black;
+}
+
+#result:focus,
+#inputvalue:focus {
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid rgb(27, 25, 25);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  font-weight: 300;
+
+}
+#temptype {
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid rgb(27, 25, 25);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  user-select: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 5px 2px 5px black;
+}
+#temptype:focus {
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid rgb(27, 25, 25);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  padding: 0 10px;
+}
+label {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(21, 21, 21, 0.9);
+}
+
+.resultss {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+#btn {
+  height: 40px;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: azure;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  user-select: none;
+  margin: 10px 60px;
+  box-shadow: 5px 2px 5px black;
+}
+#btn:active {
+  height: 40px;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: azure;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  border: none;
+}
+#btn:hover {
+  background-color: rgba(186, 4, 41, 0.916);
+}

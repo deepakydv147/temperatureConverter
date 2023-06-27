@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./temp.css" />
+  </head>
+  <body>
+    <div class="contaner">
+   
+      <h2>Temperature converter   <i class='fas fa-temperature-high' style='font-size:30px;color:crimson'></i></h2>
+      <div class="inputs">
+        <div>
+          <label for="Degree">Degrees(&deg;C)</label>
+          <input type="number" name="degree" id="inputvalue" />
+        </div>
+        <div>
+          <label for="type">Type</label>
+          <select name="type" id="temptype">
+            <option value="Fehrenheit">Fehrenheit</option>
+            <option value="celcius">Celcius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Rankine">Rankine</option>
+          </select>
+        </div>
+      </div>
+      <div class="resultss">
+        <label for="result">Result</label>
+        <div id="result"></div>
+      </div>
+      <button type="submit" id="btn" onclick="temperature()">Converter</button>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fff87a4133.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <script src="task3.js"></script>
+</html>
